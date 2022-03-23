@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-width:1024px){
+.logo{
+		width: 15%;
+	}
+
+.barres{
+	top:80px;
+}
+
+a{
+	font-size: 250%;
+}
+}
+
+@media all and (max-width:720px){
+.logo{
+	width: 20%;
+}
+
+.barres{
+	top:70px;
+}
+
+.menu p {
+	line-height: 90%;
+	font-size: 80%;
+	text-align: center;
+}
+
+a{
+	font-size: 200%;
+}
+}
+
+@media all and (max-width:480px){
+.logo{
+	width: 24%;
+}
+.barres{
+	right: 8.7%;
+    width: 2%;
+    height: 60px;
+	top:45px;
+}
+.hamburger, .hamburger::before,
+.hamburger::after{
+    width: 25px;
+    height: 1.5px;
+}
+
+.hamburger::before {
+    top: -8px;
+}
+
+.hamburger::after {
+    top: 8px;
+}
+	
+.menu p {
+	line-height: 90%;
+	font-size: 70%;
+	text-align: center;
+}
+.rsnav{
+	padding-top: 35%;
+}
+
+ul {
+	left: 45%;
+}
+
+a{
+	font-size: 180%;
+}
+}

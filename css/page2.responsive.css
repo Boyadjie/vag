@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-width:1024px){
+	.parent{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+		grid-column-gap: 50px;
+		grid-row-gap: 35px;
+	}
+	.sac{
+		width: 65%;
+	}
+	.bridge{
+		font-size: 210%;
+		padding-left: 11.5%;
+		padding-bottom: 4%;
+	}
+	.explore{
+		padding-left: 11.5%;
+		padding-top: 4%;
+	}
+}
+
+@media all and (max-width:720px){
+	.bridge{
+		font-size: 180%;
+		padding-left: 10%;
+		padding-bottom: 6%;
+	}
+	.explore{
+		padding-left: 10%;
+		padding-top: 6%;
+		font-size: 70%;
+	}
+	.sac{
+		width: 70%;
+	}
+}
+
+@media all and (max-width:480px){
+	.parent{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(9, 1fr);
+		grid-column-gap: 40px;
+		grid-row-gap: 20px;
+	}
+	.case:hover {
+  		-ms-transform: scale(1);
+ 		-webkit-transform: scale(1);
+  		transform: scale(1);
+  		transition: 0.2s;
+	}
+	.cadre:hover {
+  		-ms-transform: scale(1);
+  		-webkit-transform: scale(1);
+  		transform: scale(1);
+	}
+	.sac{
+		width: 70%;
+	}
+	.button{
+		width: 35%;
+		margin-top: 4%;
+	}
+	.bridge{
+		font-size: 150%;
+		padding-left: 4%;
+		padding-bottom: 6%;
+	}
+	.explore{
+		padding-left: 4%;
+		padding-top: 6%;
+	}
+	
+}

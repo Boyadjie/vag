@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+@media all and (max-width: 1100px){
+h5.info{
+	font-size: 14pt;
+	margin-top: 1%;
+}
+
+h3.info{
+	font-size: 22pt;
+}
+}
+
+@media all and (max-width:767px){
+.cadre{
+	top :50%;
+	padding: 12px;
+}
+
+h5.info{
+	font-size: 8pt;
+	margin-top: 1%;
+}
+
+h3.info{
+	font-size: 16pt;
+}
+}
+
+@media all and (max-width:480px){
+	
+.wrap{
+	max-width:480px;
+	margin: 0px;
+}
+	
+.half {
+    width: 100%;
+    max-width: 585px;
+    margin: auto;
+}
+		
+.longue{
+    display: none;
+    }
+ 
+.reca{
+    display: block;
+}
+	
+.cadre{
+	top:60%;
+}
+
+h5.info{
+	margin-top: 8%;
+}
+}

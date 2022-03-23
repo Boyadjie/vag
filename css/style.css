@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-color:#f8b00d;
+	color: #27215b;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+div {
+    display: block;
+}
+
+.wrap{
+	max-width:1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bold{
+	font-weight: 800;
+	font-size: 90%;
+}
+
+.light{
+	font-weight: 300;
+	font-size: 140%;
+}
+
+.images{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.full{
+	width:100%;
+	position: relative;
+}
+
+h2{
+	text-align: center;
+}
+
+.half{
+	width: 50%;
+	position: relative;
+}
+
+.reca{
+	display: none;
+}
+
+.bigsquare{
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width:80%;
+	height:20%;
+	border:0px solid white;
+	background-color:white;
+}
+
+div.full:hover > div.bigsquare{
+	opacity:1;
+}
+
+.square{
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width:80%;
+	border:0px solid white;
+	background-color:white;
+}
+
+div.half:hover > div.square{
+	opacity:1;
+}
+
+div a{
+	width:480px;
+	height:150px;
+}
+.click{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+}
+
+div.bigsquare:hover h5,div.bigsquare:hover h3{
+	color: #f8b00d;
+}
+
+div.square:hover h5,div.square:hover h3{
+	color: #f8b00d;
+}
+
+div a{
+	text-decoration: none;
+}
+
+h5.info{
+	text-align: center;
+	font-family: "Open Sans Semibold";
+	font-size: 13pt;
+	color:rgb(0,36,86);
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+
+h3.info{
+	text-align: center;
+	font-family: "Open Sans Light";
+	font-size: 25pt;
+	color:rgb(0,36,86);
+	margin:0;
+	padding-bottom:5%;
+}

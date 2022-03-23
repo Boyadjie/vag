@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-width:1024px){
+	footer p{
+		font-size: 100%;
+	}
+}
+
+@media all and (max-width:720px){
+	footer p{
+		font-size: 90%;
+	}
+}
+
+@media all and (max-width:480px){
+	footer p{
+		font-size: 80%;
+	}
+}
